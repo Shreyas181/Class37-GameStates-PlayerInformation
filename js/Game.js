@@ -41,7 +41,7 @@ update(state){
     this.handleElements();
     Player.getPlayersInfo();
     if(allPlayers !== undefined){
-      iSmage(track, -height*5, width, height*6);
+      image(track, -height*5, width, height*6);
       drawSprites();
     }
   }
